@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Секретная координата</title>
+  <script>
+    if (localStorage.getItem("used")) {
+      document.write("Ссылка уже использована.");
+    } else {
+      localStorage.setItem("used", true);
+      window.location.href = "https://yandex.ru/maps?whatshere%5Bpoint%5D=50.340168488323506%2C53.00739052341092&whatshere%5Bzoom%5D=14.988528&ll=50.340168488323506%2C53.0073905230182&z=14.988528&si=0q52qfh8t87j6qzvn0gx081d4r";
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>
